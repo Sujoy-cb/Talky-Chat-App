@@ -1,0 +1,192 @@
+.message{
+    width: 97%;
+    height: 95%;
+    border: .30px solid rgb(119, 119, 119, 0.05);
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 20px 40px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.dark .message{
+    background: #1B2430;
+    box-shadow: 0px 4px 4px rgb(127 127 127 / 25%) !important;
+}
+.message .top{
+    border-bottom: 1px solid rgb(68, 68, 68,.5);
+    padding-bottom: 15px;
+}
+.message .top .img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    position: relative;
+    filter: drop-shadow(0 0 0.50rem rgb(0, 0, 0,.5));
+}
+.message .top .img img{
+    width: 100%;
+    height: 100%;
+}
+.message .top .img .online{
+    width: 20px;
+    height: 20px;
+    background: #3CCF4E;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.message .top .name h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: #222;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.dark .message .top .name h3{
+    color: #fff;
+}
+.message .top .name h6{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #444;
+    font-weight: 400;
+}
+.dark .message .top .name h6{
+    color: #f1f1f1;
+}
+.message .top .dotIcon{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 56%;
+    color: #5F35F5;
+}
+.message .message-body{
+    height: 600px;
+    padding: 0 15px;
+    padding-bottom: 20px;
+    overflow-y: scroll;
+}
+.message .message-body::-webkit-scrollbar{
+    width: 5px !important;
+    border-radius: 10px;
+}
+.message .message-body::-webkit-scrollbar-thumb{
+    background-color: rgb(95, 53, 245,.5);
+    border-radius: 10px;
+}
+.message .message-body .msg{
+    display: flex;
+    position: relative;
+}
+.dark .message .message-body .right h6{
+    background: #242F9B !important;
+}
+.message .message-body .msg h6{
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 13px 30px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.message .message-body .msg p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: rgb(0, 0, 0, 0.25);
+    font-weight: 500;
+    line-height: 18px;
+    position: absolute;
+    bottom: -22px;
+}
+.dark .message .message-body .msg p{
+    color: #fff;
+}
+.message .message-body .msg .img{
+    width: 150px;
+    height: 200px;
+    background: #f1f1f1;
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.message .message-body .right .img{
+    background: #5f35f5;
+}
+.dark .message .message-body .right .img{
+    background: #242F9B !important;
+}
+.message .message-body .msg .img img{
+    width: 100%;
+    height: 100%;
+}
+.message .messageBox{
+    position: relative;
+    border-top: 1px solid rgb(68, 68, 68,.5);
+    padding-top: 15px;
+    margin-top: 15px;
+}
+.message .messageBox input{
+    width: 90%;
+    background: #f1f1f1;
+    padding: 15px;
+    border: 0;
+    border-radius: 10px;
+    outline: 0;
+}
+.message .messageBox input::placeholder{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #999;
+}
+.message .messageBox .button{
+    display: inline-block;
+}
+.message .messageBox .button button{
+    background: #5F35F5;
+    border: 1px solid #5F35F5;
+    border-radius: 5px;
+    font-size: 25px;
+    color: #fff !important;
+    padding: 6px 8px;
+    position: absolute;
+    top: 24px;
+    right: 5px;
+    cursor: pointer;
+}
+.dark .message .messageBox .button button{
+    background: #242F9B;
+    border: 1px solid #242F9B;
+}
+.message .messageBox .smileIcon{
+    display: inline-block;
+    color: rgb(0, 0, 0,.5);
+    position: absolute;
+    top: 40px;
+    right: 93px;
+}
+.message .messageBox .camera-icon{
+    display: inline-block;
+    color: #444;
+    position: absolute;
+    top: 40px;
+    right: 68px;
+}
+.sentbtn{
+    background: #5F35F5 !important;
+    border: 1px solid #5F35F5 !important;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #fff !important;
+    padding: 2px 4px !important;
+    outline: 0;
+    margin-top: 10px !important;
+}
+.sentbtn:hover{
+    background: #5F35F5 !important;
+    border: 1px solid #5F35F5 !important;
+}

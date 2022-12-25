@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap');
+.reg-body{
+    padding: 40px 0;
+}
+.app-name{
+    font-family: 'Fredoka One', cursive;
+    font-size: 70px;
+    color: #242F9B;
+    text-align: center;
+    letter-spacing: 5px;
+    text-shadow: 0px 5px 0px #F32424;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.reg-body .reg-form{
+    background: #fff;
+    border-radius: 20px;
+    box-shadow:  20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+    margin-top: 30px;
+    display: flex;
+    overflow: hidden;
+}
+.dark .reg-body .reg-form{
+    background: #1B2430;
+    box-shadow:  20px 20px 60px rgba(21, 21, 21, 0.25),
+                -20px -20px 60px rgba(0, 0, 0, 0.25);
+}
+.reg-body .reg-form .left{
+    padding: 40px;
+    padding-right: 20px;
+}
+.reg-body .reg-form .left h2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 35px;
+    color: #11175D;
+    font-weight: 800;
+    line-height: 47px;
+}
+.dark .reg-body .reg-form .left h2, 
+.dark .reg-body .reg-form .left p,
+.dark .reg-body .reg-form .left .form-field .icon, 
+.dark .reg-body .reg-form .left .form-field .icon2, .dark .left .route{
+    color: #fff;
+}
+.reg-body .reg-form .left p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color: #11175D;
+    font-weight: 400;
+    opacity: 0.5;
+    line-height: 28px;
+}
+.reg-body .reg-form .left .form-field{
+    position: relative;
+    color: #fff;
+}
+.reg-body .reg-form .left .form-field .input{
+    margin-top: 35px;
+    width: 70%;
+}
+.dark .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input,
+.dark .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input:focus,
+.dark .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root,
+.dark .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+    color: #fff !important;
+}
+.dark .reg-body .reg-form .left .form-field .input{
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.reg-body .reg-form .left .form-field .icon{
+    position: absolute;
+    bottom: 109px;
+    right: 167px;
+    font-size: 20px;
+    color: #03014C;
+    opacity: .3;
+}
+.reg-body .reg-form .left .form-field .icon2{
+    position: absolute;
+    bottom: 18px;
+    right: 167px;
+    font-size: 20px;
+    color: #03014C;
+    opacity: .3;
+}
+.reg-body .reg-form .left .button{
+    text-align: left !important;
+    margin-top: 40px;
+}
+.reg-body .reg-form .left .button .sub-button{
+    background: #5F35F5;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    width: 70%;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0px 13px 13px -2px rgb(91 54 245 / 25%);
+}
+.dark .reg-body .reg-form .left .button .sub-button{
+    background: #03014C;
+    box-shadow: 0px 13px 13px -2px rgb(3, 1, 76,.25);
+}
+.reg-body .reg-form .right{
+    height: 100%;
+}
+.reg-body .reg-form .right img{
+    width: 100%;
+    height: 100%;
+}
+.css-mhc70k-MuiGrid-root>.MuiGrid-item{
+    padding: 0 !important;
+}
+.left .route{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #03014C;
+    font-weight: 700;
+    margin-top: 35px;
+}
+.left .route .link{
+    text-decoration: none;
+    color: #EA6C00;
+}
+.left .css-1wc848c-MuiFormHelperText-root{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px !important;
+    color: #F32424 !important;
+    margin-top: 5px !important;
+    opacity: 1 !important;
+    margin-left: 0;
+}
+.email-alert{
+    width: 70%;
+    margin-top: 15px;
+}
+.reg-body .reg-form .css-1ytlwq5-MuiAlert-icon{
+    margin-top: 0;
+}
+
+

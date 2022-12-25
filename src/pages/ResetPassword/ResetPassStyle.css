@@ -1,0 +1,46 @@
+.reset-pass{
+    background: #5F35F5;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reset-pass .forgot{
+    /* width: 500px;
+    height: 300px; */
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    /* text-align: center; */
+}
+.reset-pass .forgot h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    color: #03014C;
+    font-weight: 700;
+}
+.reset-pass .forgot p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #444;
+    font-weight: 400;
+    line-height: 22px;
+    width: 450px;
+    margin-top: 10px;
+}
+.reset-pass .forgot .input{
+    width: 100%;
+    margin-top: 20px;
+}
+.reset-pass .forgot .button{
+    margin-top: 15px;
+}
+.reset-pass .forgot .button .sub-button{
+    background: #5F35F5;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0px 13px 13px -2px rgb(91 54 245 / 25%);
+}

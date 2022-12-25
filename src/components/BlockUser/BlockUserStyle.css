@@ -1,0 +1,90 @@
+.block-user{
+    width: 90%;
+    height: 293px;
+    background: #fff;
+    border: .30px solid rgb(119, 119, 119, 0.05);
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 24px;
+    padding: 13px 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow-y: scroll;
+}
+.dark .block-user{
+    background: #1B2430;
+    box-shadow: 0px 4px 4px rgb(127 127 127 / 25%) !important;
+}
+.block-user::-webkit-scrollbar{
+    width: 8px;
+    height: 100px;
+}
+.block-user .head-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.block-user .head-part h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.block-user .head-part .dot-icon{
+    color: #5F35F5;
+}
+.block-user .block-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+.block-user .block-items:last-child{
+    border-bottom: none;
+}
+.block-user .block-items .img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.block-user .block-items .img img{
+    width: 100%;
+}
+.block-user .block-items .name h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #000;
+    font-weight: 600;
+    line-height: 27px;
+}
+.block-user .block-items .name p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    color: #4D4D4DBF;
+    font-weight: 400;
+    line-height: 21px;
+}
+.block-user .block-items .button p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    color: #4D4D4DBF;
+    font-weight: 400;
+    line-height: 21px;
+}
+.block-user .block-items .button .btn{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 30px;
+    background: #5F35F5;
+    border: 1px solid #5F35F5;
+    border-radius: 5px;
+    padding: 2px 8px;
+    text-transform: capitalize;
+}
+.dark .block-user .block-items .button .btn{
+    background: #242F9B;
+    border: 1px solid #242F9B;
+}

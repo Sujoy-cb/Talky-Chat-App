@@ -1,0 +1,102 @@
+.my-group{
+    width: 90%;
+    height: 293px;
+    background: #fff;
+    border: .30px solid rgb(119, 119, 119, 0.05);
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 24px;
+    padding: 13px 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow-y: scroll;
+}
+.dark .my-group{
+    background: #1B2430;
+    box-shadow: 0px 4px 4px rgb(127 127 127 / 25%) !important;
+}
+.my-group::-webkit-scrollbar{
+    width: 8px;
+    height: 100px;
+}
+.my-group .head-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.light .my-group .head-part h4, .dark .my-group .head-part h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.my-group .head-part .dot-icon{
+    color: #5F35F5;
+}
+.my-group .group-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+.my-group .group-items:last-child{
+    border-bottom: none;
+}
+.my-group .group-items .img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.my-group .group-items .img img{
+    width: 100%;
+    height: 100%;
+}
+.my-group .group-items .name h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #000;
+    font-weight: 600;
+    line-height: 27px;
+}
+.my-group .group-items .name p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: #4D4D4DBF;
+    font-weight: 500;
+    line-height: 21px;
+}
+.my-group .group-items .button p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    color: #4D4D4DBF;
+    font-weight: 500;
+    line-height: 21px;
+    margin-top: 15px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+.buttons Button,.buttons Button:hover{
+    background: #5F35F5;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+.buttons Button:last-child{
+    background: #FF1E1E;
+}
+.css-ejwnvs{
+    max-height: 360px;
+    overflow-y: scroll;
+}
+.css-ejwnvs::-webkit-scrollbar{
+    width: 8px;
+    background: rgb(95, 53, 245, .5);
+    border-radius: 10px;
+}

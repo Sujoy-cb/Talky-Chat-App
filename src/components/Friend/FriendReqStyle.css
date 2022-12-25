@@ -1,0 +1,72 @@
+.friends-part{
+    width: 90%;
+    height: 292px;
+    background: #fff;
+    border: .30px solid rgb(119, 119, 119, 0.05);
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 25px;
+    padding: 13px 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow-y: scroll;
+}
+.friends-part::-webkit-scrollbar{
+    width: 8px;
+    height: 100px;
+}
+.friends-part .head-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.friends-part .head-part h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.friends-part .head-part .dot-icon{
+    color: #5F35F5;
+}
+.friends-part .friends-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+.friends-part .friends-items:last-child{
+    border-bottom: none;
+}
+.friends-part .friends-items .img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.friends-part .friends-items .name h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+    line-height: 27px;
+}
+.friends-part .friends-items .name p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #4D4D4DBF;
+    font-weight: 500;
+    line-height: 21px;
+}
+.friends-part .friends-items .button .btn{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 30px;
+    background: #5F35F5;
+    border: 1px solid #5F35F5;
+    border-radius: 5px;
+    padding: 4px 10px;
+    text-transform: capitalize;
+}

@@ -1,0 +1,91 @@
+.userList-part{
+    width: 90%;
+    height: 401px;
+    background: #fff;
+    border: .30px solid rgb(119, 119, 119, 0.05);
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 13px 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow-y: scroll;
+}
+.userList-part::-webkit-scrollbar{
+    width: 8px;
+    height: 100px;
+}
+.userList-part .head-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.userList-part .head-part h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.userList-part .head-part .dot-icon{
+    color: #5F35F5;
+}
+.userList-part .userList-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+.userList-part .userList-items:last-child{
+    border-bottom: none;
+}
+.userList-part .userList-items .img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.userList-part .userList-items .name h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #000;
+    font-weight: 600;
+    line-height: 27px;
+}
+.userList-part .userList-items .name p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    color: #4D4D4DBF;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.userList-part .userList-items .button .btns{
+    width: 35px;
+    height: 35px;
+    background: #5F35F5;
+    color: #fff;
+    border: 1px solid #5F35F5;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.userList-part .userList-items .button .req-sent{
+    width: 35px;
+    height: 35px;
+    background: #3CCF4E;
+    color: #fff;
+    border: 1px solid #3CCF4E;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.userList-part .userList-items .button .req-acpt{
+    width: 35px;
+    height: 35px;
+    background: #FF4949;
+    color: #fff;
+    border: 1px solid #FF4949;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.userList-part .userList-items .button .sent, .plus, .acpt{
+    font-size: 20px;
+}
